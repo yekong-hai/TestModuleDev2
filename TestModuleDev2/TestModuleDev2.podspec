@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "UIKit"
-  s.frameworks = "UIKit"
+  s.frameworks = "UIKit","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
