@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "TestModuleDev2"
   s.version      = "0.0.1"
-  s.summary      = "A short description of TestModuleDev2."
+  s.summary      = "私有pod库测试，像cocoapods官方库，此库可优化ios的模块化开发"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                     描述内容：
-                    测试cocoapods私有库
+                    测试cocoapods私有库,
+                    私有pod库测试，像cocoapods官方库，此库可优化ios的模块化开发
                    DESC
 
   s.homepage     = "https://github.com/yekong-hai/TestModuleDev2"
@@ -81,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yekong-hai/TestModuleDev2.git"}
+  s.source       = { :git => "https://github.com/yekong-hai/TestModuleDev2.git", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
