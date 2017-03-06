@@ -13,6 +13,7 @@
 		B7A8BC981E5C27130017D904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A8BC961E5C27130017D904 /* Main.storyboard */; };
 		B7A8BC9A1E5C27130017D904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A8BC991E5C27130017D904 /* Assets.xcassets */; };
 		B7A8BC9D1E5C27130017D904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A8BC9B1E5C27130017D904 /* LaunchScreen.storyboard */; };
+		B7C37F611E6D162A0076CD50 /* TestBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7C37F601E6D162A0076CD50 /* TestBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B7A8BC991E5C27130017D904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A8BC9C1E5C27130017D904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7A8BC9E1E5C27130017D904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C37F601E6D162A0076CD50 /* TestBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TestBundle.bundle; path = Resources/TestBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B7A8BC8C1E5C27130017D904 /* TestModuleDev2 */ = {
 			isa = PBXGroup;
 			children = (
+				B7C37F601E6D162A0076CD50 /* TestBundle.bundle */,
 				B7A8BC901E5C27130017D904 /* AppDelegate.h */,
 				B7A8BC911E5C27130017D904 /* AppDelegate.m */,
 				B7A8BC931E5C27130017D904 /* ViewController.h */,
@@ -141,6 +144,7 @@
 				B7A8BC9D1E5C27130017D904 /* LaunchScreen.storyboard in Resources */,
 				B7A8BC9A1E5C27130017D904 /* Assets.xcassets in Resources */,
 				B7A8BC981E5C27130017D904 /* Main.storyboard in Resources */,
+				B7C37F611E6D162A0076CD50 /* TestBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
