@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestModuleDev2"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "私有pod库测试，像cocoapods官方库，此库可优化ios的模块化开发"
 
   # This description is used to generate tags and improve search results.
